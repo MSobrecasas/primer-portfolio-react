@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
+    padding-top: 2rem;
 }
 
 .about__me {
@@ -44,7 +45,7 @@
 }
 
 .about__card:hover {
-    background: transparent;
+    background: var(--color-bg);
     border-color: var(--color-primary-variant);
     cursor: default;
 }
@@ -66,7 +67,8 @@
 
 .about__content p {
     margin: 2rem 0 2.6rem;
-    color: var(--color-light);
+    color: var(--color-primary);
+    font-size: 1.1rem;
 }
 
 /* MEDIUM */

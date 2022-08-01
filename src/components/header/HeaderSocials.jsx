@@ -8,7 +8,6 @@ export const HeaderSocials = () => {
     <div className='header__socials'>
         <a href="http://linkedin.com" target="_blank"> <RiLinkedinFill/> </a>
         <a href="http://github.com" target="_blank"> <RiGithubFill/> </a>
-        <a href="http://dribbble.com" target="_blank"> <RiDribbbleFill/> </a>
     </div>
   )
 }
